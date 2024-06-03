@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const supabaseUrl = 'https://ivmaalkhcfrpkkkjwimw.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml2bWFhbGtoY2ZycGtra2p3aW13Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTU2NDAzNTQsImV4cCI6MjAzMTIxNjM1NH0.LgG2kf2rTXYU2PwMrO>
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml2bWFhbGtoY2ZycGtra2p3aW13Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTU2NDAzNTQsImV4cCI6MjAzMTIxNjM1NH0.LgG2kf2rTXYU2PwMrOvPMPyM3Yud2itiOitf8zdF_uo';
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
